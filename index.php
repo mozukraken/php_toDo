@@ -14,16 +14,16 @@ require_once(__DIR__ . '/functions.php');
     <div class="" id="container">
       <h1>Todos</h1>
       <form action="">
-        <input type="text" name="" value="" placeholder="what needs to be done?">
+        <input type="text" id="new_todo" placeholder="what needs to be done?">
       </form>
       <ul>
         <li>
-          <input type="checkbox" name="" value="" id="new_todo">
+          <input type="checkbox">
           <span>Do something</span>
           <div class="delete_todo">×</div>
         </li>
         <li>
-          <input type="checkbox" checked name="" value="" id="">
+          <input type="checkbox" checked>
           <span class="done">Do something again</span>
           <div class="delete_todo">×</div>
         </li>
