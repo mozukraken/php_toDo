@@ -3,6 +3,8 @@
 ini_set('display_errors', 1);
 
 define('DNS', 'mysql:host=localhost;dbname=toDo_app');
+define('DB_USERNAME', 'dbuser');
+define('DB_PASSWORD', '******');
 
 
 ?>
